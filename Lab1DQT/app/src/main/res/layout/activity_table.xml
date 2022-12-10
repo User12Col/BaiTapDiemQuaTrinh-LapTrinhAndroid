@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:gravity="center_horizontal">
+
+    <TableRow android:layout_weight="2"
+        android:layout_width="0dp">
+
+        <TextView
+            android:id="@+id/bg00"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg01"
+            android:layout_span="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg02"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_weight="2">
+        <TextView
+            android:id="@+id/bg10"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg11"
+            android:layout_span="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_weight="2">
+        <TextView
+            android:id="@+id/bg20"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg21"
+            android:layout_span="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg22"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_weight="2">
+        <TextView
+            android:id="@+id/bg30"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg31"
+            android:layout_span="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg32"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_weight="2">
+        <TextView
+            android:id="@+id/bg40"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg41"
+            android:layout_span="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg42"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_weight="2">
+        <TextView
+            android:id="@+id/bg50"
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg51"
+            android:layout_span="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/bg52"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <SeekBar
+            android:id="@+id/barColorTable"
+            android:layout_span="6"
+            android:layout_width="match_parent"
+            android:layout_height="38dp" />
+    </TableRow>
+
+
+</TableLayout>

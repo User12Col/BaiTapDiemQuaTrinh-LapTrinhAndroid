@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative">
+
+
+    <TextView
+        android:id="@+id/reTopLeft"
+        android:layout_width="176dp"
+        android:layout_height="325dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="" />
+
+    <SeekBar
+        android:id="@+id/reBarColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/reBotLeft"
+        android:layout_width="176dp"
+        android:layout_height="365dp"
+        android:layout_above="@+id/reBarColor"
+        android:layout_below="@+id/reTopLeft"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="11dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/reTopRight"
+        android:layout_width="235dp"
+        android:layout_height="206dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/reTopLeft"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/reMidRight"
+        android:layout_width="235dp"
+        android:layout_height="241dp"
+        android:layout_below="@+id/reTopRight"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/reBotLeft"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/reBotRight"
+        android:layout_width="235dp"
+        android:layout_height="242dp"
+        android:layout_above="@+id/reBarColor"
+        android:layout_below="@+id/reMidRight"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="13dp"
+        android:layout_toEndOf="@+id/reBotLeft"
+        android:text="" />
+</RelativeLayout>
